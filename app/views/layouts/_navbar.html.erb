@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg sticky-top justify-content-between top-navbar">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <%= link_to '#', class: 'navbar-brand' do %>
+    <%= image_tag "cube.png", width: "30", height: "30" %>
+  <% end %>
+  
+  <form class="form-inline">
+    <%= link_to '<i class="fa fa-cog" aria-hidden="true"></i> Setting'.html_safe, '#', class: 'btn btn-sm btn-outline-info mr-1'%>
+    <%= link_to '<i class="fa fa-sign-out" aria-hidden="true"></i> Log out'.html_safe, '#', class: 'btn btn-sm btn-outline-secondary mr-1'%>
+  </form>
+</nav>

@@ -7,6 +7,8 @@ gem 'rails', '4.2.5'
 #custome use
 #bootstrap4
 gem 'bootstrap', '~> 4.0.0' 
+#fontawesome
+gem "font-awesome-rails"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
